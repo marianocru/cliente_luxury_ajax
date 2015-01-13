@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\ajax_form\ajax_form.clpprj">
+	<removed value=";C:\xampp\htdocs\ajax_form\ajax.js;C:\xampp\htdocs\ajax_form\ajax_php_mysql_consulta.html;C:\xampp\htdocs\ajax_form\ajaxsubmit.php;C:\xampp\htdocs\ajax_form\consulta.php;C:\xampp\htdocs\ajax_form\empleados.html;"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\ajax_form\index.php"/>
+		<file name="C:\xampp\htdocs\ajax_form\verdisponibilidad.php"/>
+		<file name="C:\xampp\htdocs\ajax_form\script.js"/>
+		<file name="C:\xampp\htdocs\ajax_form\config.php"/>
+		<file name="C:\xampp\htdocs\ajax_form\reservar.php"/>
+	</lastopfiles>
+	<codestructure version="5.0">
+		<phptree>
+			<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\ajax_form\disponibles.php;f14;6;24;6;;C:\xampp\htdocs\ajax_form\empleados.php;f14;12;24;12;;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f14;1;24;1;;C:\xampp\htdocs\ajax_form\reservar.php;f14;1;24;1;;C:\xampp\htdocs\ajax_form\index.php;f14;10;24;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest.php;PHP:PHP Include;C:\xampp\htdocs\ajax_form\PestXML.php;f14;19;22;19;;C:\xampp\htdocs\ajax_form\PestJSON.php;f14;25;22;25;;;;vpos;;v;;r&#xA;Description&#xA;     Pest is a REST client for PHP. PestXML adds XML-specific functionality to Pest, automatically converting XML data resturned from REST services into SimpleXML objects.;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="PestXML.php;PHP:PHP Include;C:\xampp\htdocs\ajax_form\config.php;f14;1;25;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;9;1;540;;;;vpos;;v;;r&#xA;Description&#xA;     Pest is a REST client for PHP.;;d0,10;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;53;5;72;;;;vpos;;v;;r&#xA;Description&#xA;     Class constructor&#xA;&#xA;Parameters:&#xA;    string $base_url;;d4,54;;b1,0;;mstring $base_url;;p">
+					<treenode node="base_url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f32;53;41;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;64;17;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_isNumericallyIndexedArray;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;202;5;205;;;;vpos;;vboolean;;r&#xA;Description&#xA;     Determines if a given array is numerically indexed or not&#xA;&#xA;Parameters:&#xA;    array $array;;d4,203;;b2,0;;marray $array;;p">
+					<treenode node="array;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f50;202;56;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="checkLastResponseForError;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;287;5;336;;;;vpos;;v;;r&#xA;Description&#xA;     Check last response for error;;d4,288;;b2,0;;m">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;293;13;293;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="meta;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;292;13;292;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f13;289;18;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;477;5;489;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP DELETE request&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $headers;;d4,478;;b1,0;;mstring $url;;parray $headers;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;484;13;484;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;483;13;483;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;479;18;479;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f33;477;41;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f21;479;26;479;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f27;477;31;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="doRequest;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;249;5;270;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Do CURL request&#xA;&#xA;Parameters:&#xA;    resource $curl;;d4,250;;b3,0;;mresource $curl;;p">
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f31;249;36;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;251;13;251;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;138;5;157;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP GET request&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,139;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;153;13;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;152;13;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;148;18;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f30;138;35;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f47;138;55;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pos;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;141;16;141;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f21;148;26;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f24;138;28;138;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="handle_header;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;533;5;539;;;;vpos;;vint;;r&#xA;Description&#xA;     Handle header&#xA;&#xA;Parameters:&#xA;     $ch&#xA;     $str;;d4,534;;b3,0;;m $ch;;p $str;;p">
+					<treenode node="ch;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f35;533;38;533;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="match;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f50;535;56;535;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="str;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f40;533;44;533;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;536;17;536;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="head;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;356;5;367;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP HEAD request&#xA;&#xA;Parameters:&#xA;    string $url;;d4,357;;b1,0;;mstring $url;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;362;13;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;361;13;361;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;358;18;358;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f21;358;26;358;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f25;356;29;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="lastBody;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;496;5;499;;;;vpos;;vstring;;r&#xA;Description&#xA;     Get last response body;;d4,497;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f15;498;20;498;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="lastHeader;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;519;5;525;;;;vpos;;vstring;;r&#xA;Description&#xA;     Return the last response header (case insensitive) or NULL if not present. HTTP allows empty headers (e.g. RFC 2616, Section 14.23), thus is_null() and not negation or empty() should be used.&#xA;&#xA;Parameters:&#xA;    string $header;;d4,520;;b1,0;;mstring $header;;p">
+					<treenode node="header;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f31;519;38;519;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f18;521;23;521;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="lastStatus;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;506;5;509;;;;vpos;;vint;;r&#xA;Description&#xA;     Get last response status;;d4,507;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f15;508;20;508;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="patch;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;452;5;468;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP PATCH request&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,453;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;463;13;463;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;462;13;462;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;456;18;456;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f32;452;37;452;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f39;452;47;452;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f21;456;26;456;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f26;452;30;452;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="post;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;377;5;393;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP POST request&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,378;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;388;13;388;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;387;13;387;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;381;18;381;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f31;377;36;377;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f38;377;46;377;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f16;379;21;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f25;377;29;377;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="prepData;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;400;5;416;;;;vpos;;varray;;r&#xA;Description&#xA;     Prepare data&#xA;&#xA;Parameters:&#xA;    array $data&#xA;&#xA;Return:&#xA;   |string;;d4,401;;b1,0;;marray $data;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f29;400;34;400;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="item;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f30;405;35;405;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="multipart;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;403;22;403;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="prepHeaders;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;214;5;226;;;;vpos;;varray;;r&#xA;Description&#xA;     Flatten headers from an associative array to a numerically indexed array of &quot;Name: Value&quot; style entries like CURLOPT_HTTPHEADER expects. Numerically indexed arrays are not modified.&#xA;&#xA;Parameters:&#xA;    array $headers;;d4,215;;b2,0;;marray $headers;;p">
+					<treenode node="flattened;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;220;18;220;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f35;214;43;214;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f29;221;34;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;216;17;216;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f38;221;44;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="prepRequest;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;167;5;194;;;;vpos;;vresource;;r&#xA;Description&#xA;     Prepare request&#xA;&#xA;Parameters:&#xA;    array $opts&#xA;    string $url;;d4,168;;b2,0;;marray $opts;;pstring $url;;p">
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;173;13;173;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="opt;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f26;178;30;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f35;167;40;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f26;169;31;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f42;167;46;167;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f34;178;38;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="processBody;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;343;5;349;;;;vpos;;vstring;;r&#xA;Description&#xA;     Process body&#xA;&#xA;Parameters:&#xA;    string $body;;d4,344;;b2,0;;mstring $body;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f35;343;40;343;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="processError;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f14;233;5;240;;;;vpos;;vstring;;r&#xA;Description&#xA;     Process error&#xA;&#xA;Parameters:&#xA;    string $body;;d4,234;;b2,0;;mstring $body;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f36;233;41;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="put;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;426;5;442;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP PUT request&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,427;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;437;13;437;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;436;13;436;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;430;18;430;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f30;426;35;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f37;426;45;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f16;428;21;428;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f24;426;28;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setupAuth;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;81;5;85;;;;vpos;;v;;r&#xA;Description&#xA;     Setup authentication&#xA;&#xA;Parameters:&#xA;    string $user&#xA;    string $pass&#xA;    string $auth - Can be 'basic' or 'digest';;d4,82;;b1,0;;mstring $user;;pstring $pass;;pstring $auth;;p">
+					<treenode node="auth;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f44;81;49;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pass;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f37;81;42;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;83;13;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f30;81;35;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setupCookies;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;94;5;111;;;;vpos;;v;;r&#xA;Description&#xA;     Set cookies for this session&#xA;&#xA;Parameters:&#xA;    array $cookies;;d4,95;;b1,0;;marray $cookies;;p">
+					<treenode node="cookie;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f12;102;19;102;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cookie_list;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;99;20;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cookie_name;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f29;100;41;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cookie_value;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f45;100;58;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cookies;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f33;94;41;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;110;13;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setupProxy;PHP:Function Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;120;5;128;;;;vpos;;v;;r&#xA;Description&#xA;     Setup proxy&#xA;&#xA;Parameters:&#xA;    string $host&#xA;    int $port&#xA;    string $user - Optional&#xA;    string $pass - Optional;;d4,121;;b1,0;;mstring $host;;pint $port;;pstring $user;;pstring $pass;;p">
+					<treenode node="host;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f31;120;36;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pass;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f59;120;64;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="port;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f38;120;43;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f8;122;13;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="user;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f45;120;50;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="base_url;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;25;20;25;;;;vposstring;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="curl_opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;14;21;14;;;;vposarray;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="last_headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;40;24;40;;;;vposarray;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="last_request;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;35;24;35;;;;vposarray;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="last_response;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;30;25;30;;;;vposarray;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="throw_exceptions;PHP:Var Name;C:\xampp\htdocs\ajax_form\Pest.php;f11;45;28;45;;;;vposbool;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Pest_BadRequest;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;552;2;553;;;;vpos;;vPest_ClientError;;c;;r;;d0,553;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_ClientError;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;549;2;550;;;;vpos;;vPest_Exception;;c;;r;;d0,550;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Conflict;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;567;2;568;;;;vpos;;vPest_ClientError;;c;;r;;d0,568;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Curl_Exec;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;587;2;588;;;;vpos;;vPest_Exception;;c;;r;;d0,588;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Curl_Init;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;581;2;582;;;;vpos;;vPest_Exception;;c;;r;;d0,582;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Curl_Meta;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;584;2;585;;;;vpos;;vPest_Exception;;c;;r;;d0,585;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Exception;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;542;2;543;;;;vpos;;vException;;c;;r;;d0,543;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Forbidden;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;558;2;559;;;;vpos;;vPest_ClientError;;c;;r;;d0,559;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Gone;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;570;2;571;;;;vpos;;vPest_ClientError;;c;;r;;d0,571;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_InvalidRecord;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;573;2;574;;;;vpos;;vPest_ClientError;;c;;r;;d0,574;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Json_Decode;PHP:Class Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f0;204;2;205;;;;vpos;;vPest_ClientError;;c;;r;;d0,205;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Json_Encode;PHP:Class Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f0;208;2;209;;;;vpos;;vPest_ClientError;;c;;r;;d0,209;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_MethodNotAllowed;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;564;2;565;;;;vpos;;vPest_ClientError;;c;;r;;d0,565;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_NotFound;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;561;2;562;;;;vpos;;vPest_ClientError;;c;;r;;d0,562;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_ServerError;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;576;2;577;;;;vpos;;vPest_ClientError;;c;;r;;d0,577;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_Unauthorized;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;555;2;556;;;;vpos;;vPest_ClientError;;c;;r;;d0,556;;b0,0;;m">
+			</treenode>
+			<treenode node="Pest_UnknownResponse;PHP:Class Name;C:\xampp\htdocs\ajax_form\Pest.php;f0;544;2;545;;;;vpos;;vPest_Exception;;c;;r;;d0,545;;b0,0;;m">
+			</treenode>
+			<treenode node="PestJSON;PHP:Class Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f0;27;1;200;;;;vpos;;vPest;;c;;r;;d0,28;;b0,0;;m">
+				<treenode node="JSON_ERROR_UNKNOWN;PHP:PHP Word;C:\xampp\htdocs\ajax_form\PestJSON.php;f9;29;28;29;;;;vpos;;v;;r1000;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="getLastJsonErrorCode;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;153;5;161;;;;vpos;;vint;;r&#xA;Description&#xA;     Get last JSON error code&#xA;&#xA;Return:&#xA;   |null;;d4,154;;b1,0;;m">
+				</treenode>
+				<treenode node="getLastJsonErrorMessage;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;110;5;146;;;;vpos;;vstring;;r&#xA;Description&#xA;     Get last JSON error message;;d4,111;;b1,0;;m">
+				</treenode>
+				<treenode node="hasJsonDecodeFailed;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f12;167;5;175;;;;vpos;;vbool;;r&#xA;Description&#xA;     Check if decoding failed;;d4,168;;b3,0;;m">
+				</treenode>
+				<treenode node="jsonDecode;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;91;5;103;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Decode a JSON string with error checking&#xA;&#xA;Parameters:&#xA;    string $data&#xA;    bool $asArray;;d4,92;;b1,0;;mstring $data;;pbool $asArray;;p">
+					<treenode node="asArray;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f38;91;46;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f31;91;36;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="jsonEncode;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;69;5;81;;;;vpos;;vstring;;r&#xA;Description&#xA;     JSON encode with error checking&#xA;&#xA;Parameters:&#xA;    mixed $data;;d4,70;;b1,0;;mmixed $data;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f31;69;36;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="post;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;44;5;47;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform an HTTP POST&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,45;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f31;44;36;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f38;44;46;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f25;44;29;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="prepRequest;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f14;194;5;199;;;;vpos;;vresource;;r&#xA;Description&#xA;     Prepare request&#xA;&#xA;Parameters:&#xA;    array $opts&#xA;    string $url;;d4,195;;b2,0;;marray $opts;;pstring $url;;p">
+					<treenode node="opts;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f35;194;40;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f42;194;46;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="processBody;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;182;5;185;;;;vpos;;vmixed;;r&#xA;Description&#xA;     Process body&#xA;&#xA;Parameters:&#xA;    string $body&#xA;&#xA;Return:&#xA;   |string;;d4,183;;b1,0;;mstring $body;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f32;182;37;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="put;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;57;5;60;;;;vpos;;vstring;;r&#xA;Description&#xA;     Perform HTTP PUT&#xA;&#xA;Parameters:&#xA;    string $url&#xA;    array $data&#xA;    array $headers;;d4,58;;b1,0;;mstring $url;;parray $data;;parray $headers;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f30;57;35;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="headers;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f37;57;45;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="url;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f24;57;28;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="throwJsonExceptions;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestJSON.php;f11;34;31;34;;;;vposbool;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="PestXML;PHP:Class Name;C:\xampp\htdocs\ajax_form\PestXML.php;f0;21;1;77;;;;vpos;;vPest;;c;;r;;d0,22;;b0,0;;m">
+				<treenode node="processBody;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestXML.php;f11;54;5;76;;;;vpos;;vnull;;r&#xA;Description&#xA;     Process body&#xA;&#xA;Parameters:&#xA;    string $body&#xA;&#xA;Return:&#xA;   |SimpleXMLElement|string;;d4,55;;b1,0;;mstring $body;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestXML.php;f32;54;37;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="processError;PHP:Function Name;C:\xampp\htdocs\ajax_form\PestXML.php;f11;28;5;44;;;;vpos;;vstring;;r&#xA;Description&#xA;     Process error&#xA;&#xA;Parameters:&#xA;    string $body;;d4,29;;b1,0;;mstring $body;;p">
+					<treenode node="body;PHP:Var Name;C:\xampp\htdocs\ajax_form\PestXML.php;f33;28;38;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="PestXML_Exception;PHP:Class Name;C:\xampp\htdocs\ajax_form\PestXML.php;f0;79;2;80;;;;vpos;;vPest_Exception;;c;;r;;d0,80;;b0,0;;m">
+			</treenode>
+			<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f58;4;64;4;;C:\xampp\htdocs\ajax_form\reservar.php;f36;5;42;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="data;PHP:Var Name;C:\xampp\htdocs\ajax_form\disponibles.php;f39;9;44;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="disponibilidad;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f0;4;15;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="error;PHP:Var Name;C:\xampp\htdocs\ajax_form\reservar.php;f28;20;34;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="fecha_desde;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f0;16;12;16;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="fecha_hasta;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f0;17;12;17;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="habitacion;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f52;51;63;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="habitaciones;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f16;36;29;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mensg;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f12;33;18;33;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="noches;PHP:Var Name;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f0;18;7;18;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="pest;PHP:Var Name;C:\xampp\htdocs\ajax_form\disponibles.php;f0;9;5;9;;C:\xampp\htdocs\ajax_form\config.php;f0;5;5;5;;C:\xampp\htdocs\ajax_form\empleados.php;f9;14;14;14;;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f18;4;23;4;;C:\xampp\htdocs\ajax_form\reservar.php;f11;5;16;5;;C:\xampp\htdocs\ajax_form\index.php;f9;12;14;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="reserva;PHP:Var Name;C:\xampp\htdocs\ajax_form\reservar.php;f0;5;8;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="this;PHP:Var Name;C:\xampp\htdocs\ajax_form\index.php;f6;15;11;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tipo;PHP:Var Name;C:\xampp\htdocs\ajax_form\disponibles.php;f33;30;38;30;;C:\xampp\htdocs\ajax_form\empleados.php;f33;37;38;37;;C:\xampp\htdocs\ajax_form\verdisponibilidad.php;f41;32;46;32;;C:\xampp\htdocs\ajax_form\index.php;f33;33;38;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tipos;PHP:Var Name;C:\xampp\htdocs\ajax_form\disponibles.php;f17;30;23;30;;C:\xampp\htdocs\ajax_form\empleados.php;f0;14;6;14;;C:\xampp\htdocs\ajax_form\index.php;f0;12;6;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="URL;PHP:Var Name;C:\xampp\htdocs\ajax_form\config.php;f0;3;4;3;;;;vposPestXML;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\ajax_form\script.js;f2;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+		<todofile name="C:\xampp\htdocs\ajax_form\PestXML.php">
+			<todo name="todo This should always return a SimpleXMLElement" pos="8;49"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\ajax_form\verdisponibilidad.php" crc="513437960"/>
+		<file name="C:\xampp\htdocs\ajax_form\script.js" crc="1465871343"/>
+		<file name="C:\xampp\htdocs\ajax_form\reservar.php" crc="-664271773"/>
+		<file name="C:\xampp\htdocs\ajax_form\PestXML.php" crc="372907315"/>
+		<file name="C:\xampp\htdocs\ajax_form\PestJSON.php" crc="1701109916"/>
+		<file name="C:\xampp\htdocs\ajax_form\Pest.php" crc="-2020816342"/>
+		<file name="C:\xampp\htdocs\ajax_form\index.php" crc="-2108277885"/>
+		<file name="C:\xampp\htdocs\ajax_form\disponibles.php" crc="-290786988"/>
+		<file name="C:\xampp\htdocs\ajax_form\config.php" crc="-2055375230"/>
+	</filescache>
+</project>
